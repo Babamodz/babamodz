@@ -1,17 +1,20 @@
 
 -- main code
-
+gg.alert("ARE YOUR SURE YOU ARE IN A ISLAND ?\n PLEASE WAIT 30SEC TO APPLY BYPASS ")
 gg.clearResults()
 gg.searchNumber("26478;27491:129", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.sleep(1000)
 revert = gg.getResults(9000, nil, nil, nil, nil, nil, nil, nil, nil)
 gg.editAll("131842", gg.TYPE_DWORD)
 
 gg.clearResults()
+gg.sleep(1000)
 gg.searchNumber("6647145;7632239:69", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
 revert = gg.getResults(9000, nil, nil, nil, nil, nil, nil, nil, nil)
 gg.editAll("131842", gg.TYPE_DWORD)
 
 gg.clearResults()
+gg.sleep(1000)
 gg.searchNumber("131842;131842;6579572;29797:165", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
 
 gg.clearResults()
@@ -20,12 +23,15 @@ revert = gg.getResults(9000, nil, nil, nil, nil, nil, nil, nil, nil)
 gg.editAll("131842", gg.TYPE_DWORD)
 
 gg.clearResults()
+gg.sleep(1000)
 gg.searchNumber("6579572;25701:69", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
 revert = gg.getResults(9000, nil, nil, nil, nil, nil, nil, nil, nil)
 gg.editAll("131842", gg.TYPE_DWORD)
 
 gg.clearResults()
+gg.sleep(1000)
 gg.searchNumber("28787;29795:29", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
 revert = gg.getResults(9000, nil, nil, nil, nil, nil, nil, nil, nil)
 gg.editAll("131842", gg.TYPE_DWORD)
-
+gg.sleep(1000)
+gg.alert("10min FIXED SUCCESSFUL PLAY LIKE PRO")
