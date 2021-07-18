@@ -15,4 +15,4 @@ revert = gg.getResults(8000, nil, nil, nil, nil, nil, nil, nil, nil)
 gg.editAll("720914", gg.TYPE_DWORD)
 
 gg.sleep(1000)
-gg.alert("10min FIXED SUCCESSFUL PLAY LIKE PRO")
+gg.alert("10min FIXED SUCCESSFUL PLAY LIKE PRO ..")
