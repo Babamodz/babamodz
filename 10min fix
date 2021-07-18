@@ -1,0 +1,31 @@
+
+-- main code
+
+gg.clearResults()
+gg.searchNumber("26478;27491:129", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(9000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("131842", gg.TYPE_DWORD)
+
+gg.clearResults()
+gg.searchNumber("6647145;7632239:69", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(9000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("131842", gg.TYPE_DWORD)
+
+gg.clearResults()
+gg.searchNumber("131842;131842;6579572;29797:165", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+
+gg.clearResults()
+gg.searchNumber("6579572;29797:37", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(9000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("131842", gg.TYPE_DWORD)
+
+gg.clearResults()
+gg.searchNumber("6579572;25701:69", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(9000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("131842", gg.TYPE_DWORD)
+
+gg.clearResults()
+gg.searchNumber("28787;29795:29", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(9000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("131842", gg.TYPE_DWORD)
+
