@@ -1,3 +1,4 @@
+gg.alert("PLEASE WAIT....M")
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("620137442967552;288232579469934592", gg.TYPE_QWORD)
 gg.sleep(3000)
