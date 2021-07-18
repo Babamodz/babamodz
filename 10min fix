@@ -1,16 +1,23 @@
 
 -- main code
 gg.alert("ARE YOUR SURE YOU ARE IN A ISLAND ?\n PLEASE WAIT 30SEC TO APPLY BYPASS ")
+gg.setRanges(gg.REGION_C_ALLOC)
+
 gg.clearResults()
 gg.searchNumber("131328", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
-gg.processResume()
+
+gg.sleep(1000)
+gg.refineNumber("131328", gg.TYPE_DWORD)
 revert = gg.getResults(8000, nil, nil, nil, nil, nil, nil, nil, nil)
 gg.editAll("67109072", gg.TYPE_DWORD)
 gg.processResume()
 gg.sleep(1000)
 gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("29793", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
-gg.processResume()
+gg.sleep(1000)
+gg.refineNumber("29793", gg.TYPE_DWORD)
+
 revert = gg.getResults(8000, nil, nil, nil, nil, nil, nil, nil, nil)
 gg.editAll("720914", gg.TYPE_DWORD)
 
